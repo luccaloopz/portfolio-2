@@ -1,13 +1,30 @@
+body {
+    background-color: #3c7585;
+}
+
 #profPicContainer {
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
     width: 400px;
-    height: 240px;
+    height: 100%;
 }
 
 #profPic {
     width: 100%;
     height: auto;
+    filter: drop-shadow(10px 1px 3px);
+}
+
+#description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+@media (max-width: 575.98px) {
+    #description {
+        font-size: larger;
+    }
 }
