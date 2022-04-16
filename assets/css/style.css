@@ -1,9 +1,12 @@
 body {
-    background-color: #3c7585;
+    background-color: #346572;
+}
+
+#aboutMe {
+    padding-top: 2%;
 }
 
 #profPicContainer {
-    /* display: block; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
@@ -14,17 +17,37 @@ body {
 #profPic {
     width: 100%;
     height: auto;
-    filter: drop-shadow(10px 1px 3px);
+    filter: drop-shadow(7px 1px 3px);
 }
 
 #description {
     font-family: 'Open Sans', sans-serif;
     font-size: xx-large;
+    font-weight: 600;
     color: whitesmoke;
+    text-align: justify;
+}
+
+.pictures {
+    color: aliceblue;
+    border: 5px solid rgb(177, 63, 63);
+    border-radius: 20px;
+    background-color: teal;
+    text-align: center;
+    font-size: larger;
+}
+
+.titles {
+    font-family: 'Playfair Display', serif;
+    color: rgb(247, 207, 156);
 }
 
 @media (max-width: 575.98px) {
     #description {
         font-size: larger;
+    }
+
+    #aboutMe {
+        padding-top: 5%;
     }
 }
