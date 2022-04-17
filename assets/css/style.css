@@ -29,12 +29,30 @@ body {
 }
 
 .pictures {
-    color: aliceblue;
-    border: 5px solid rgb(177, 63, 63);
+    border: 5px solid rgb(245, 219, 186);
     border-radius: 20px;
     background-color: teal;
     text-align: center;
     font-size: larger;
+}
+
+.pictures img {
+    width: 100%;
+    height: auto;
+}
+
+.pictures #bigger {
+    height: 85%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.picCaption {
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 .titles {
@@ -49,5 +67,10 @@ body {
 
     #aboutMe {
         padding-top: 5%;
+    }
+}
+@media (max-width: 991.98px) {
+    .pictures #bigger {
+        height: 75%;
     }
 }
