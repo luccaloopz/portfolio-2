@@ -4,6 +4,11 @@
 
 Please click on the following link to be navigated to the portfolio: https://luccaloopz.github.io/portfolio-2/
 
+## **Contact Info**
+
+* `Email:` luccamartins2012@gmail.com
+* `GitHub Profile:` https://github.com/luccaloopz
+
 ## **Languages Used**
 
 * HTML
