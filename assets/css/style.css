@@ -17,7 +17,7 @@ body {
 #profPic {
     width: 100%;
     height: auto;
-    filter: drop-shadow(7px 1px 3px);
+    filter: drop-shadow(7px 7px 3px);
 }
 
 #description {
@@ -34,6 +34,7 @@ body {
     background-color: teal;
     text-align: center;
     font-size: larger;
+    filter: drop-shadow(7px 7px 3px);
 }
 
 .pictures img {
@@ -51,13 +52,22 @@ a {
 
 .picCaption {
     color: aliceblue;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: larger;
 }
 
 .titles {
     font-family: 'Playfair Display', serif;
     color: rgb(247, 207, 156);
+}
+
+#footer {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-style: italic;
+    font-weight: 600;
 }
 
 @media (max-width: 575.98px) {
@@ -69,8 +79,9 @@ a {
         padding-top: 5%;
     }
 }
+
 @media (max-width: 991.98px) {
     .pictures #bigger {
-        height: 75%;
+        height: 80%;
     }
 }
