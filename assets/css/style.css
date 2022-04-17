@@ -43,7 +43,7 @@ body {
 }
 
 .pictures #bigger {
-    height: 85%;
+    height: 75%;
 }
 
 a {
@@ -82,6 +82,6 @@ a {
 
 @media (max-width: 991.98px) {
     .pictures #bigger {
-        height: 80%;
+        height: 70%;
     }
 }
